@@ -1,0 +1,22 @@
+Package: Hello
+Type: Package
+Title: Hello World
+Version: 0.0.0.9000
+Authors@R: c(
+    person(
+      "Coralie", "Schweisthal",
+      email = "coralie.schweisthal@student.uclouvain.be",
+      role = c("aut", "cre")
+    )
+  )
+Description: A package to say hello to the world.
+    created for learning purposes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Imports: 
+    stringr (>= 1.5.1)
